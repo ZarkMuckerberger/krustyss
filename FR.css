@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* :root{
+    --navbar-height : 60px
+} */
+
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+        margin: 19px 16px;
+}
+
+.logo{
+    font-size: 3rem;
+    font-family: 'The Nautigal', cursive;
+    margin-bottom: 26px;
+}
+
+
+
+
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 13%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0px;
+    
+}
+
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+#navbar ul li a{
+
+    display: block;
+    padding: 24px;
+    margin-bottom: 11px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#navbar ul li a:hover{
+
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 419px;
+
+}
+
+#home::before{
+    content: "";
+    background: url("imgs/bg.jpg") no-repeat center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85
+    ;
+    filter: blur(1.5px);
+    top: 0px;
+}
+
+.h-primary{
+    font-size: 4.8rem;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+}
+
+.h-secondary-center{
+    font-size: 3.2rem;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'The Nautigal', cursive; 
+}
+
+.p-primary{
+    font-size: 1.5rem;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.btn{
+    padding: 6px 15px;
+    border: 2px solid white;
+    background-color: palevioletred;
+    color: white;
+    margin: 12px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+#services{
+    display: flex;
+    margin: 7px;
+    
+
+}
+
+#services .box{
+    border: 3px solid rgb(248, 94, 248);
+    padding: 5px;
+    margin: px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(252, 224, 252);
+    transition: 0.5s;
+    
+
+    
+
+}
+
+#services .box img{
+    height: 135px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+   
+        
+}
+
+
+
+
+.hs{
+    margin-top: 220px;
+    font-family: 'The Nautigal', cursive; 
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+
+
+
+#services .box:hover{
+transform:scale(1.1)
+    
+}
+
+#services .box img:hover{
+
+border: 3px black solid;
+
+}

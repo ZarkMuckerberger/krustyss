@@ -1,0 +1,38 @@
+#home{
+
+    height: 645px;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+#home::before{
+    height: 892px;
+    right: 0px;
+    top: 0px;
+}
+
+#home p{
+    font-size: 20px;
+}
+
+#navbar{
+    flex-direction: column;
+     margin-top: -41px;
+}
+
+#navbar ul li a{
+         
+    font-size: 1rem;
+    padding:auto;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#navbar{
+    width: 100%;
+}
+
